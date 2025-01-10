@@ -20,6 +20,8 @@ for( let i = 0; i <= 100; i++ ){
         console.log(parola1)
     } else if( i % 5== 0){
         console.log(parola2)
+    } else {
+        console.log(i)
     }
 
 }
