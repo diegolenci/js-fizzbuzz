@@ -11,16 +11,19 @@ Consigli del giorno:
 //variabili
 let parola1 = "fizz"
 let parola2 = "buzz"
-
+let fullName = "fizzbuzz"
 //ciclo
 for( let i = 0; i <= 100; i++ ){
     
     //condizioni
-    if(i % 3 == 0 ){
-        console.log(parola1)
+    if( i % 3 == 0 && i % 5 == 0 ){
+        console.log(fullName)
     } else if( i % 5== 0){
         console.log(parola2)
-    } else {
+    } else if( i % 3== 0) {
+        console.log(parola1)
+    }
+    else {
         console.log(i)
     }
 
